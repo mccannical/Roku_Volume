@@ -1,4 +1,4 @@
-# Roku_Volume
+# Roku Volume controller though SmartThings and Google Home
 
 I really didn't want to use a remote to turn the volume up or down on my Roku TV. 
 
