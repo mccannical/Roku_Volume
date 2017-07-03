@@ -43,11 +43,11 @@ Finally, for python lets run a detached Flask instance in the background.
 ## Setup SmartThings WebCore
  Issac Newton once said, "Something something shoulders of giants". So, lets go stand on some giants!  
 [You must complete all of these steps.](https://wiki.webcore.co/#Installing_webCoRE)  
-GitHub [Install](https://wiki.webcore.co/GitHub_Install) or [Manual Install](https://wiki.webcore.co/Manual_Install) of webCoRE source code into the SmartThings Cloud  
-[Enable webCoRE OAuth](https://wiki.webcore.co/Enable_webCoRE_OAuth) in the SmartThings cloud  
-[Install webCoRE](https://wiki.webcore.co/Install_webCoRE) in the SmartThings mobile app  
-[Enabling webCoRE dashboard](https://wiki.webcore.co/Enabling_webCoRE_dashboard)  
-[Enable webCoRE on Another Device](https://wiki.webcore.co/Enable_webCoRE_on_Another_Device)  
+* GitHub [Install](https://wiki.webcore.co/GitHub_Install) or [Manual Install](https://wiki.webcore.co/Manual_Install) of webCoRE source code into the SmartThings Cloud 
+* [Enable webCoRE OAuth](https://wiki.webcore.co/Enable_webCoRE_OAuth) in the SmartThings cloud 
+* [Install webCoRE](https://wiki.webcore.co/Install_webCoRE) in the SmartThings mobile app 
+* [Enabling webCoRE dashboard](https://wiki.webcore.co/Enabling_webCoRE_dashboard) 
+* [Enable webCoRE on Another Device](https://wiki.webcore.co/Enable_webCoRE_on_Another_Device) 
   
 ## Create SmartThings Virtual Devices  
 Login it to the SmartThings IDE: [https://graph.api.smartthings.com/](https://graph.api.smartthings.com/)  
