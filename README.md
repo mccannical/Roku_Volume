@@ -50,6 +50,13 @@ GitHub [Install](https://wiki.webcore.co/GitHub_Install) or [Manual Install](htt
 [Enable webCoRE on Another Device](https://wiki.webcore.co/Enable_webCoRE_on_Another_Device)  
   
 ## Create SmartThings Virtual Devices  
+Login it to the SmartThings IDE: [https://graph.api.smartthings.com/](https://graph.api.smartthings.com/)  
+1. Click My Devices and click new device.  
+2. Fill out the form make sure the type is simulated switch.  Set the name to Roku_Volume_Up  
+3. Click My Devices and click new device.  
+4. Fill out the form make sure the type is simulated switch.  Set the name to Roku_Volume_Down  
+
+
 
 ## Setup Our SmartThings SmartApp 
 Login to the SmartThings Dashboard: [https://webcore.co/re](https://webcore.co/re)  
@@ -101,4 +108,21 @@ do
 end with;
 end execute;
 ``` 
- 
+## Setup SmartThings App
+We need to add the Virtual Switches to the App so that Google Home can then see them and talk to them.  
+
+Open the SmartThings App on your phone.  
+Click Add a Thing  
+Find and Add the Roku_Volume_Up and Roku_Volume_Down devices.  
+
+## Setup Google Home
+Now, we can add the virtual switches to Google Home and Nickname them to 'Roku Up' and 'Roku Down'.  
+
+### Finally!
+Hopefully you are still with me here.  
+Once this is all done, the flask server is running, the webcore stuff is waiting, we can test!  
+
+Now, say loudly - say proudly... "Hey Google, Turn On Roku Up"  
+
+If your house just sploded, not my fault.  
+
