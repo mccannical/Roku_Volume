@@ -29,6 +29,7 @@ Next we need to add a little something to roku's core.py
  to:  
   ```     
     'literal': 'Lit',
+    'power': 'Power',
     'volup' : 'VolumeUp',
     'voldn' : 'VolumeDown'
 } ```  
