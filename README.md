@@ -56,7 +56,8 @@ Login it to the SmartThings IDE: [https://graph.api.smartthings.com/](https://gr
 2. Fill out the form make sure the type is simulated switch.  Set the name to Roku_Volume_Up  
 3. Click My Devices and click new device.  
 4. Fill out the form make sure the type is simulated switch.  Set the name to Roku_Volume_Down  
-
+5. Click My Devices and click new device.  
+6. Fill out the form make sure the type is simulated switch.  Set the name to Power  
 
 
 ## Setup Our SmartThings SmartApp 
@@ -109,6 +110,33 @@ do
 end with;
 end execute;
 ``` 
+
+and
+
+
+```
+**************************************************************/
+/* Power                                                      */
+/**************************************************************/
+ 
+execute
+if
+Power's switch physically changes to on
+then
+with
+Power
+do
+ Make a GET request to http://public_ip_address:5000/power with type JSON;
+end with;
+end if;
+with
+Power
+do
+ Set switch to off;
+end with;
+end execute;
+```
+
 ## Setup SmartThings App
 We need to add the Virtual Switches to the App so that Google Home can then see them and talk to them.  
 
