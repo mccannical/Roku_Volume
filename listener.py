@@ -19,3 +19,8 @@ def voldn():
     for lvls in range(5):
         roku.voldn()
     return "Shhh..."
+
+@app.route("/power")
+def power_tog():
+    roku.power()
+    return "power"
