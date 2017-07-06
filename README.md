@@ -38,8 +38,6 @@ Finally, for python lets run a detached Flask instance in the background.
 
 `  FLASK_APP=listener.py flask run --host=0.0.0.0 `  
 
-### You will need to expose port 5000 to the internet through your router's port forwarding mechanism.   
-
 
 ## Setup SmartThings WebCore
  Issac Newton once said, "Something something shoulders of giants". So, lets go stand on some giants!  
@@ -76,7 +74,7 @@ then
 with
 Roku_Volume_Up
 do
- Make a GET request to http://your_public_ip_address:5000/up with type JSON;
+ Make a GET request to http://flask_ip_address:5000/up with type JSON;
 end with;
 end if;
 with
@@ -100,7 +98,7 @@ then
 with
 Roku_Volume_Down
 do
- Make a GET request to http://your_public_ip_address:5000/down with type JSON;
+ Make a GET request to http://flask_ip_address:5000/down with type JSON;
 end with;
 end if;
 with
